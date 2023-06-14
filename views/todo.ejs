@@ -18,7 +18,7 @@
             <% todolist.forEach(function(todo, index) { %>
             <li>
                 <a href="/todo/delete/<%= index %>">✘ delete</a>
-                <a href="/todo/<%= index %>">✎</a>
+                <a href="/todo/<%= index %>">✎ edit</a>
                 <b><%- todo %></b>
             </li>
             <% }); %>
